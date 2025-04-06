@@ -47,7 +47,7 @@ Resolvendo:
 
 \[ 2x + x = 3 + 3 \]
 
-\[ 3x = 6 \quad \Rightarrow \quad x = 2 \]
+\[ 3x = 6 \] &rarr; \[ x = 2 \]
 
 Substituímos \(x = 2\) em qualquer equação:
 
@@ -86,7 +86,7 @@ Considere o sistema:
 **Passo 1: Escolher uma Equação para Isolamento**
 Escolha a segunda equação para isolar uma variável:
 
-\[ x + y = 3 \quad \Rightarrow \quad y = 3 - x \]
+\[ x + y = 3 \] &rarr; \[ y = 3 - x \]
 
 **Passo 2: Substituir em outra Equação**
 Substitua \( y = 3 - x \) na primeira equação:
@@ -95,7 +95,7 @@ Substitua \( y = 3 - x \) na primeira equação:
 
 Simplificando:
 
-\[ 2x - 3 + x = 3 \quad \Rightarrow \quad 3x = 6 \quad \Rightarrow \quad x = 2 \]
+\[ 2x - 3 + x = 3 \] &rarr; \[ 3x = 6 \] &rarr; \[ x = 2 \]
 
 **Passo 3: Encontrar o Valor de \( y \)**
 Substitua \( x = 2 \) na equação \( y = 3 - x \):
