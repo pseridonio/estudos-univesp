@@ -54,21 +54,13 @@ Para um sistema:
 
 
 \[
-\begin{cases}
-a_{11}x_1 + a_{12}x_2 + \dots + a_{1n}x_n = b_1,\
-
-\[1mm]
-a_{21}x_1 + a_{22}x_2 + \dots + a_{2n}x_n = b_2,\
-
-\[1mm]
-\quad \vdots\
-
-\[1mm]
-a_{m1}x_1 + a_{m2}x_2 + \dots + a_{mn}x_n = b_m,
-\end{cases}
+\begin{aligned}
+a_{11}x_1 + a_{12}x_2 + \dots + a_{1n}x_n &= b_1, \\[1mm]
+a_{21}x_1 + a_{22}x_2 + \dots + a_{2n}x_n &= b_2, \\[1mm]
+&\quad \vdots \\[1mm]
+a_{m1}x_1 + a_{m2}x_2 + \dots + a_{mn}x_n &= b_m,
+\end{aligned}
 \]
-
-
 
 definimos:
 
@@ -344,20 +336,17 @@ A seguir, as respostas detalhadas para as 30 questões:
    Por exemplo, um sistema com 3 equações:
    
 
+
 \[
-   \begin{cases}
-   2x + y - z = 3,\
+  \begin{cases}
+  2x + y - z = 3, \\[1mm]
+  x - 3y + 2z = -1, \\[1mm]
+  3x + 2y + z = 4,
+  \end{cases}
+\]
 
-\[1mm]
-   x - 3y + 2z = -1,\
+pode ser representado por:
 
-\[1mm]
-   3x + 2y + z = 4,
-   \end{cases}
-   \]
-
-
-   pode ser representado por:
    
 
 \[
