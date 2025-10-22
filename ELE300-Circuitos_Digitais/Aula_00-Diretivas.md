@@ -17,15 +17,21 @@ Conjunto de diretivas para geração do conteúdo das aulas de IoT e Circuítos 
 
 - **Complemente o conteúdo:** Após gerar o conteúdo dos temas com base no vídeo, utilize os materiais listados na seção "Materiais complementares" para complementar o conteúdo. Após isso, complemente com informações confiáveis da internet. Não inclua no markdown tópicos que não estejam na aula do vídeo. Por exemplo, se a aula não falar de topologia, não aborde topologia no markdown, mesmo que tenha topologia nos outros materiais.
 
-- **Lista de exercícios:** Abaixo do conteúdo gere uma seção com uma lista de exercícios com uma quantidade suficiente para cobrir todo o conteúdo sem ser repetitivo, todos acompanhados de uma resolução detalhada, passo a passo. 
+- **Lista de exercícios:** Baseado no conteúdo gerado, crie uma seção com uma lista de exercícios com uma quantidade suficiente para cobrir todo o conteúdo sem ser repetitivo, todos acompanhados de uma resolução detalhada, passo a passo.
 
-- **Bibliografia**: Gere uma seção de bibliografia incluindo o nome das fontes, autores quando disponível, links quando disponível e data do acesso. Quando for baseado no conteúdo de livros, informe o autor, editora, edição, e ano de lançamento.
+- **Bibliografia**: Gere uma seção de bibliografia incluindo o nome das fontes, autores quando disponível, links quando disponível e data do acesso. Quando for baseado no conteúdo de livros, informe o autor, editora, edição, e ano de lançamento. Utilize o formato ABNT para as referências bibliográficas.
 
 ## Materiais complementares
 
 - Livro "Sistemas digitais: princípios e aplicações" de Ronald J. Tocci, Neal S. Widmer e Gregory L. Moss.
 
 - [Circuitos de Armazenamento](https://www.inf.ufsc.br/~j.guntzel/isd/isd5.pdf)
+
+- TOCCI, R. J.; WIDMER, N. S.; MOSS, G. L. Sistemas digitais: princípios e aplicações. 12. ed. São Paulo, SP: Pearson, 2018. E-book. Disponível em: https://plataforma.bvirtual.com.br. Acesso em: 20 out 2025.
+
+- FLOYD, Thomas. Sistemas digitais. 9. ed. Porto Alegre: Bookman, 2011. E-book. p.78. ISBN 9788577801077. Disponível em: https://app.minhabiblioteca.com.br/reader/books/9788577801077/. Acesso em: 20 out. 2025.
+
+- [Introdução aos sistemas digitais](https://www.inf.ufsc.br/~j.guntzel/isd/isd1.pdf)
 
 - Pesquise em sites da web confiáveis para complementar os dados, independente do idioma do site.
 
