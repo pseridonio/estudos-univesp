@@ -1,4 +1,4 @@
-# Aula: Protocolos de Comunicação IoT – Introdução ao Sonoff
+﻿# Aula: Protocolos de Comunicação IoT – Introdução ao Sonoff
 
 ## 1. Introdução
 

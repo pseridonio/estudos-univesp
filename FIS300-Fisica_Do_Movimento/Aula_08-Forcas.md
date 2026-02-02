@@ -1,4 +1,4 @@
-# Física do Movimento – Forças
+﻿# Física do Movimento – Forças
 
 Este material reúne os principais conceitos sobre forças – uma temática central na Física do Movimento – abordados na nova aula, com complementos do livro base e informações adicionais extraídas de fontes online. Nele, discutimos o conceito de força como uma grandeza vetorial que descreve as interações entre corpos, sejam elas de contato ou à distância. Também abordamos exemplos práticos, diagramas (como o diagrama de corpo livre) e técnicas para a representação vetorial (como os versores).
 

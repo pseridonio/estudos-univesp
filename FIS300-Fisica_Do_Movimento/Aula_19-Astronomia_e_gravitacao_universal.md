@@ -1,4 +1,4 @@
-# Aula 00: Astronomia e Gravitação Universal
+﻿# Aula 00: Astronomia e Gravitação Universal
 
 ## Introdução
 

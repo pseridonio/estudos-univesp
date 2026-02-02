@@ -1,4 +1,4 @@
-# Diretivas
+﻿# Diretivas
 
 Conjunto de diretivas para geração do conteúdo das aulas de IoT.
 

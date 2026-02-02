@@ -1,4 +1,4 @@
-# Energia, Trabalho e Potência – Abordagem Avançada
+﻿# Energia, Trabalho e Potência – Abordagem Avançada
 
 Neste documento, exploramos os conceitos fundamentais de energia, trabalho e potência, conforme apresentados na aula da UNIVESP e complementados por conteúdos encontrados em diversas fontes e no livro de Nussenzveig. A seguir, são apresentadas definições, fórmulas matemáticas (revisadas e corrigidas) e análises críticas para auxiliar na compreensão dos fenômenos físicos relacionados à transferência de energia.
 

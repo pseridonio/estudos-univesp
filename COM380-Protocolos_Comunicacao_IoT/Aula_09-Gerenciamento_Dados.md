@@ -1,4 +1,4 @@
-# Gerenciamento de Dados em IoT
+﻿# Gerenciamento de Dados em IoT
 
 Este material apresenta uma visão completa e atualizada do gerenciamento de dados na Internet das Coisas (IoT), partindo da transcrição da aula da UNIVESP e incorporando informações extras relevantes e recentes. São abordadas as etapas do fluxo de dados, os desafios enfrentados e os gaps identificados, com recomendações de estratégias e tecnologias complementares.
 

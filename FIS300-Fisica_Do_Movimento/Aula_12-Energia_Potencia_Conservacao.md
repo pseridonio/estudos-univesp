@@ -1,4 +1,4 @@
-# Energia, Potência e Conservação da Energia
+﻿# Energia, Potência e Conservação da Energia
 
 Neste documento, abordamos os conceitos fundamentais de energia, trabalho, potência e a conservação da energia. O conteúdo foi extraído da aula em vídeo da UNIVESP, complementado por informações dos sites já consultados em aulas anteriores e pelo livro *Curso de Física Básica 1 – Herch Moysés Nussenzveig, Editora Edgard Blücher, 2005, 3ª edição*.
 

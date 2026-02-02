@@ -1,11 +1,11 @@
-# Estudos UNIVESP
+Ôªø# Estudos UNIVESP
 
-Bem-vindo! Aqui vocÍ encontra meus materiais e anotaÁıes das disciplinas.
+Bem-vindo! Aqui voc√™ encontra meus materiais e anota√ß√µes das disciplinas.
 
 - COM370 - Sistemas Embarcados
 - COM310 - Infraestrutura de Sistemas Digitais
-- COM380 - Protocolos de ComunicaÁ„o IoT
+- COM380 - Protocolos de Comunica√ß√£o IoT
 - ELE300 - Circuitos Digitais
-- FIS300 - FÌsica do Movimento
-- MGA001 - Geometria AnalÌtica e ¡lgebra Linear
+- FIS300 - F√≠sica do Movimento
+- MGA001 - Geometria Anal√≠tica e √Ålgebra Linear
 

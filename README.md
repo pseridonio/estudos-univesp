@@ -1,4 +1,4 @@
-# Apresentação do Projeto
+﻿# Apresentação do Projeto
 
 ## Bem-vindo ao Projeto de Estudos
 

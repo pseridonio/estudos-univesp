@@ -1,4 +1,4 @@
-# Aula de Geometria Analítica e Álgebra Linear  
+﻿# Aula de Geometria Analítica e Álgebra Linear  
 **Tema:** Distâncias e Representações no Espaço Tridimensional
 
 Esta aula aborda os fundamentos da Geometria Analítica aplicados ao espaço tridimensional, enfatizando a representação de retas e planos por meio de equações vetoriais, paramétricas e analíticas; o cálculo de distâncias entre pontos, retas, planos e outros objetos geométricos; além de discutir relações de paralelismo, interseção e perpendicularidade. A abordagem aqui apresentada integra o conteúdo exposto no vídeo (com transcrição ativada) do professor Welington Cordeiro, os materiais complementares disponibilizados em PDF e fontes confiáveis na internet, oferecendo uma visão ampla, crítica e aprofundada do tema.

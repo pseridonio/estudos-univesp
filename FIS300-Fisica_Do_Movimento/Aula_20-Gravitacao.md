@@ -1,4 +1,4 @@
-# Aula 01: Física do Movimento – Gravitação
+﻿# Aula 01: Física do Movimento – Gravitação
 
 ## Introdução
 

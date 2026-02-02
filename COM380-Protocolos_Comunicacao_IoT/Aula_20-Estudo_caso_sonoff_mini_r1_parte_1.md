@@ -1,4 +1,4 @@
-# Aula: Protocolos de Comunicação IoT – Estudo de Caso com o SONOFF Mini – Parte 1
+﻿# Aula: Protocolos de Comunicação IoT – Estudo de Caso com o SONOFF Mini – Parte 1
 
 ## 1. Introdução
 

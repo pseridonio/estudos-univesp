@@ -1,4 +1,4 @@
-# Física do Movimento: Energia e Transformação de Energia
+﻿# Física do Movimento: Energia e Transformação de Energia
 
 ## Introdução
 Esta aula aborda o conceito de **energia**, sua aplicação na engenharia elétrica e os processos de **transformação de energia**. O professor **Marco Roberto Cavallari** da **Universidade Federal do ABC (UFABC)** explica como diferentes formas de energia podem ser convertidas e utilizadas.

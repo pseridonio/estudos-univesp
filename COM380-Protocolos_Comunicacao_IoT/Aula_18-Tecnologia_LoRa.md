@@ -1,4 +1,4 @@
-# Aula: Protocolos de Comunicação IoT – Tecnologia LoRa
+﻿# Aula: Protocolos de Comunicação IoT – Tecnologia LoRa
 
 Esta aula concentra-se na tecnologia LoRa, apresentada no vídeo-base, que enfatiza os aspectos de longo alcance e baixo consumo de energia para transmissões sem fio dentro da Internet das Coisas (IoT). Através da análise crítica das informações apresentadas, podemos compreender tanto os benefícios quanto as limitações desta tecnologia.
 

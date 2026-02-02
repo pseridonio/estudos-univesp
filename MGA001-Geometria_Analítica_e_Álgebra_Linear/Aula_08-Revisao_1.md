@@ -1,4 +1,4 @@
-# Revisão de Geometria Analítica e Álgebra Linear
+﻿# Revisão de Geometria Analítica e Álgebra Linear
 
 Este documento faz uma revisão dos principais temas estudados até agora, abrangendo:
 - Representação matricial de sistemas lineares (\(Ax=b\))

@@ -1,4 +1,4 @@
-# Estruturas Indeterminadas
+﻿# Estruturas Indeterminadas
 
 Esta aula, ministrada pelo Professor Cleber Amorim da UNIVESP, aborda o conceito de **estruturas indeterminadas** – aquelas em que o número de incógnitas (reações de apoio, momentos) excede o número de equações de equilíbrio disponíveis. Nesses casos, é necessário incorporar métodos adicionais, como as condições de compatibilidade de deformações e os métodos das forças (flexibilidade) ou da rigidez (matricial), para obter uma solução completa.
 

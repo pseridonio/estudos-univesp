@@ -1,4 +1,4 @@
-# Física do Movimento – Equilíbrio
+﻿# Física do Movimento – Equilíbrio
 
 Esta aula, ministrada pelo Professor Cleber Amorim da UNIVESP, aborda os conceitos e aplicações do equilíbrio em sistemas estáticos – fundamentos essenciais tanto em problemas de engenharia quanto na mecânica clássica. Essa síntese integra o conteúdo da videoaula, os conceitos básicos extraídos da obra *Física 1 – Mecânica* (Young & Freedman) e informações complementares de fontes confiáveis da internet.
 

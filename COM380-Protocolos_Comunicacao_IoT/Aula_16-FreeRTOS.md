@@ -1,4 +1,4 @@
-# Aula: FreeRTOS e Protocolos de Comunicação em IoT
+﻿# Aula: FreeRTOS e Protocolos de Comunicação em IoT
 
 Esta aula concentra-se na utilização de sistemas operacionais de tempo real, com ênfase no FreeRTOS, aplicado a dispositivos IoT. O vídeo utilizado como base aborda os seguintes temas:  
 - **Introdução ao FreeRTOS e sua aplicação em sistemas embarcados**  

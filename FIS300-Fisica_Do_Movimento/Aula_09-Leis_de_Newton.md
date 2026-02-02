@@ -1,4 +1,4 @@
-# Física do Movimento – Leis de Newton
+﻿# Física do Movimento – Leis de Newton
 
 Este documento aborda, de forma detalhada, as Leis de Newton, que são fundamentais para explicar a relação entre forças e movimento.  
 A partir da definição de força (como a causa da alteração do estado de movimento) e do conceito de inércia, Newton estabeleceu três leis que nortearam a mecânica clássica, possibilitando interpretar desde a aceleração dos objetos até interações de ação e reação.

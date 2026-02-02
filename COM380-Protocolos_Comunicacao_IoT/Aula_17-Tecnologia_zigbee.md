@@ -1,4 +1,4 @@
-# Aula: Protocolos de Comunicação IoT – Tecnologia ZigBee
+﻿# Aula: Protocolos de Comunicação IoT – Tecnologia ZigBee
 
 Esta aula concentra-se na tecnologia ZigBee, tema abordado pelo vídeo. O ZigBee é um protocolo sem fio baseado no padrão IEEE 802.15.4, projetado para conexões de baixa taxa de transmissão e baixo consumo energético. Ao longo da aula, discutimos suas vantagens, os componentes que formam uma rede ZigBee, as topologias suportadas, o mecanismo de controle de acesso e as aplicações práticas do protocolo.
 

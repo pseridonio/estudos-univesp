@@ -1,4 +1,4 @@
-# Casos Especiais em Equilíbrio
+﻿# Casos Especiais em Equilíbrio
 
 Esta aula, ministrada pelo Professor Cleber Amorim da UNIVESP, aborda **casos especiais** em problemas de equilíbrio e análise do movimento. Nesses casos, as condições–como forças atuando em ângulos não convencionais, a presença de múltiplos pontos de aplicação e situações com alavancas reais (ex.: gangorra ou levantamento de peso)–exigem um raciocínio aprofundado para aplicação correta das condições de equilíbrio (ΣF = 0 e Στ = 0). 
 

@@ -1,4 +1,4 @@
-# Geometria Analítica e Álgebra Linear: Matrizes e Transformações Lineares
+﻿# Geometria Analítica e Álgebra Linear: Matrizes e Transformações Lineares
 
 ## 1. Introdução
 

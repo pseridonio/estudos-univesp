@@ -1,4 +1,4 @@
-# Plataformas para Gerenciamento de Dados em IoT
+﻿# Plataformas para Gerenciamento de Dados em IoT
 
 Esta aula apresenta uma visão sobre as plataformas (ou frameworks) que auxiliam na coleta, no gerenciamento e no processamento dos dados gerados por dispositivos IoT. Essas soluções fornecem não apenas suporte para a modelagem dos dados e a sua armazenagem, mas também oferecem mecanismos para otimização das transmissões, integração com ferramentas analíticas e a geração de alertas e insights para a tomada de decisão.
 

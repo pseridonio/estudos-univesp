@@ -1,4 +1,4 @@
-# Física do Movimento: Forças, Leis de Newton e Dinâmica
+﻿# Física do Movimento: Forças, Leis de Newton e Dinâmica
 
 Este material reúne os principais conceitos abordados na aula sobre forças, as leis de Newton e os fundamentos da dinâmica. A partir da definição de força como causa da variação da velocidade (ou do momento) e do desenvolvimento do cálculo diferencial, veremos como Newton conceituou o movimento e a interação dos corpos. Este conteúdo também discute as contribuições históricas e as aplicações práticas na resolução de problemas fundamentais da mecânica clássica.
 

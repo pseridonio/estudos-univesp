@@ -1,4 +1,4 @@
-# Geometria Analítica e Álgebra Linear: Espaços Vetoriais
+﻿# Geometria Analítica e Álgebra Linear: Espaços Vetoriais
 
 ## 1. Introdução
 

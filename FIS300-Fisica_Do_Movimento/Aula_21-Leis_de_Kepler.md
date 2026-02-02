@@ -1,4 +1,4 @@
-# Aula 03: Leis de Kepler
+﻿# Aula 03: Leis de Kepler
 
 ## Introdução
 

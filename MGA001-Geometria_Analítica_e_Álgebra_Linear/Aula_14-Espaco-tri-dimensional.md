@@ -1,4 +1,4 @@
-# Aula de Geometria Analítica e Álgebra Linear: O Espaço Tridimensional
+﻿# Aula de Geometria Analítica e Álgebra Linear: O Espaço Tridimensional
 
 Esta aula aborda conceitos fundamentais da geometria analítica no espaço tridimensional, enfatizando as representações de retas e planos. A seguir, organizamos o conteúdo em tópicos, com definições, exemplos e uma lista de exercícios para fixação, acompanhados da bibliografia utilizada.
 

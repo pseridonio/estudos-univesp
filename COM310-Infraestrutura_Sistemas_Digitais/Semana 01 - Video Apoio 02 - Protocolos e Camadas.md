@@ -1,7 +1,7 @@
-# Aula 02 ñ Protocolos e Camadas  
-**Disciplina:** COM310 ñ Infraestrutura para Sistemas Digitais  
+Ôªø# Aula 02 ‚Äì Protocolos e Camadas  
+**Disciplina:** COM310 ‚Äì Infraestrutura para Sistemas Digitais  
 **Semana:** 1  
-**Fonte prim·ria:** VÌdeo Apoio 02 ñ TranscriÁ„o integral da aula  
+**Fonte prim√°ria:** V√≠deo Apoio 02 ‚Äì Transcri√ß√£o integral da aula  
 
 ---
 
@@ -9,7 +9,7 @@
 
 Esta aula tem como objetivos principais:
 - Analisar as fontes de atraso e perda na rede.
-- Entender a organizaÁ„o dos protocolos em camadas.
+- Entender a organiza√ß√£o dos protocolos em camadas.
 - Introduzir os modelos OSI e TCP/IP.
 - Compreender o conceito de encapsulamento.
 
@@ -17,35 +17,35 @@ Esta aula tem como objetivos principais:
 
 ## 2. Fontes de Atraso e Perda na Internet
 
-Durante a comunicaÁ„o entre dispositivos, pacotes podem sofrer atrasos ou ser descartados. As principais causas s„o:
+Durante a comunica√ß√£o entre dispositivos, pacotes podem sofrer atrasos ou ser descartados. As principais causas s√£o:
 
-### a) Processamento nos nÛs
-- Tempo gasto para verificar erros e decidir o prÛximo enlace de saÌda.
+### a) Processamento nos n√≥s
+- Tempo gasto para verificar erros e decidir o pr√≥ximo enlace de sa√≠da.
 
 ### b) Enfileiramento
-- Filas se formam nos buffers dos roteadores quando a taxa de chegada excede a taxa de transmiss„o.
+- Filas se formam nos buffers dos roteadores quando a taxa de chegada excede a taxa de transmiss√£o.
 
-### c) Atraso de transmiss„o
+### c) Atraso de transmiss√£o
 - Tempo para empurrar o pacote inteiro para o enlace.
-- Depende do tamanho do pacote (L) e da taxa de transmiss„o (R): `L / R`.
+- Depende do tamanho do pacote (L) e da taxa de transmiss√£o (R): `L / R`.
 
-### d) Atraso de propagaÁ„o
-- Tempo necess·rio para o sinal percorrer o enlace fÌsico.
+### d) Atraso de propaga√ß√£o
+- Tempo necess√°rio para o sinal percorrer o enlace f√≠sico.
 
 > **Atraso total = Soma dos quatro tipos acima**.
 
 ---
 
-## 3. OrganizaÁ„o em Camadas
+## 3. Organiza√ß√£o em Camadas
 
 ### Por que usar camadas?
 - Modulariza o sistema de redes.
-- Facilita manutenÁ„o, implementaÁ„o e substituiÁ„o de partes do sistema.
+- Facilita manuten√ß√£o, implementa√ß√£o e substitui√ß√£o de partes do sistema.
 - Cada camada tem responsabilidades bem definidas.
 
-### Analogia com correspondÍncia:
-- Cada camada adiciona um "envelope" com informaÁıes (endereÁo, controle, etc).
-- Esse processo È chamado de **encapsulamento**.
+### Analogia com correspond√™ncia:
+- Cada camada adiciona um "envelope" com informa√ß√µes (endere√ßo, controle, etc).
+- Esse processo √© chamado de **encapsulamento**.
 
 ---
 
@@ -53,108 +53,108 @@ Durante a comunicaÁ„o entre dispositivos, pacotes podem sofrer atrasos ou ser de
 
 O **modelo OSI** (Open Systems Interconnection) possui 7 camadas:
 
-| Camada             | FunÁ„o Principal                                          |
+| Camada             | Fun√ß√£o Principal                                          |
 |--------------------|-----------------------------------------------------------|
-| AplicaÁ„o          | InteraÁ„o com o usu·rio; e-mail, navegador, videoconf.    |
-| ApresentaÁ„o       | FormataÁ„o, compress„o, criptografia                      |
-| Sess„o             | Controle de sessıes, checkpoints em transferÍncias        |
-| Transporte         | ComunicaÁ„o fim-a-fim, confiabilidade (TCP)               |
+| Aplica√ß√£o          | Intera√ß√£o com o usu√°rio; e-mail, navegador, videoconf.    |
+| Apresenta√ß√£o       | Formata√ß√£o, compress√£o, criptografia                      |
+| Sess√£o             | Controle de sess√µes, checkpoints em transfer√™ncias        |
+| Transporte         | Comunica√ß√£o fim-a-fim, confiabilidade (TCP)               |
 | Rede               | Roteamento entre redes (IP)                               |
-| Enlace             | Acesso ao meio fÌsico, detecÁ„o de erros                  |
-| FÌsica             | Transmiss„o de bits no meio fÌsico                        |
+| Enlace             | Acesso ao meio f√≠sico, detec√ß√£o de erros                  |
+| F√≠sica             | Transmiss√£o de bits no meio f√≠sico                        |
 
-> Modelo de referÍncia ñ n„o possui implementaÁ„o direta.
+> Modelo de refer√™ncia ‚Äì n√£o possui implementa√ß√£o direta.
 
 ---
 
 ## 5. Modelo TCP/IP (Internet)
 
-O modelo **TCP/IP** (modelo da internet) È uma implementaÁ„o pr·tica com 4 camadas:
+O modelo **TCP/IP** (modelo da internet) √© uma implementa√ß√£o pr√°tica com 4 camadas:
 
 | Camada TCP/IP        | Camadas OSI correspondentes                |
 |----------------------|--------------------------------------------|
-| AplicaÁ„o            | AplicaÁ„o + ApresentaÁ„o + Sess„o         |
+| Aplica√ß√£o            | Aplica√ß√£o + Apresenta√ß√£o + Sess√£o         |
 | Transporte           | Transporte                                 |
 | Rede                 | Rede                                       |
-| Acesso ao meio       | Enlace + FÌsica                            |
+| Acesso ao meio       | Enlace + F√≠sica                            |
 
 ### Protocolos associados:
-- **Transporte:** TCP (confi·vel), UDP (n„o confi·vel)
+- **Transporte:** TCP (confi√°vel), UDP (n√£o confi√°vel)
 - **Rede:** IP
 - **Acesso:** Ethernet, Wi-Fi, 802.15.4
 
-> Roteadores operam atÈ a camada de rede. Hospedeiros implementam todas as camadas.
+> Roteadores operam at√© a camada de rede. Hospedeiros implementam todas as camadas.
 
 ---
 
 ## 6. Encapsulamento
 
-- Processo onde cada camada **envolve** os dados com seu cabeÁalho especÌfico.
-- O dado transmitido inclui os cabeÁalhos das camadas superiores.
+- Processo onde cada camada **envolve** os dados com seu cabe√ßalho espec√≠fico.
+- O dado transmitido inclui os cabe√ßalhos das camadas superiores.
 - Desencapsulamento ocorre no receptor, camada por camada.
 
 ---
 
-## 7. An·lise CrÌtica
+## 7. An√°lise Cr√≠tica
 
-A aula apresenta de forma clara os fundamentos sobre atrasos, perdas e organizaÁ„o em camadas. Alguns pontos que merecem atenÁ„o crÌtica:
+A aula apresenta de forma clara os fundamentos sobre atrasos, perdas e organiza√ß√£o em camadas. Alguns pontos que merecem aten√ß√£o cr√≠tica:
 
-- A explicaÁ„o sobre as diferenÁas entre **atraso de transmiss„o** e **atraso de propagaÁ„o** È did·tica, mas pode confundir sem exemplos numÈricos.
-- O conceito de **encapsulamento** foi bem apresentado por analogia, mas ainda pode ser melhor visualizado com esquemas gr·ficos.
-- A transiÁ„o entre o modelo OSI (teÛrico) e TCP/IP (pr·tico) foi abordada corretamente, mas ainda de forma introdutÛria ó aprofundamentos vir„o nas prÛximas aulas.
+- A explica√ß√£o sobre as diferen√ßas entre **atraso de transmiss√£o** e **atraso de propaga√ß√£o** √© did√°tica, mas pode confundir sem exemplos num√©ricos.
+- O conceito de **encapsulamento** foi bem apresentado por analogia, mas ainda pode ser melhor visualizado com esquemas gr√°ficos.
+- A transi√ß√£o entre o modelo OSI (te√≥rico) e TCP/IP (pr√°tico) foi abordada corretamente, mas ainda de forma introdut√≥ria ‚Äî aprofundamentos vir√£o nas pr√≥ximas aulas.
 
 ---
 
-## 8. ExercÌcios com ResoluÁ„o
+## 8. Exerc√≠cios com Resolu√ß√£o
 
-### ExercÌcios de FixaÁ„o ñ Aula 02
+### Exerc√≠cios de Fixa√ß√£o ‚Äì Aula 02
 
-1. **Quais s„o os quatro principais tipos de atraso em redes?**
-   - **Resposta:** Processamento, enfileiramento, transmiss„o e propagaÁ„o.
+1. **Quais s√£o os quatro principais tipos de atraso em redes?**
+   - **Resposta:** Processamento, enfileiramento, transmiss√£o e propaga√ß√£o.
 
 2. **O que pode causar perda de pacotes em uma rede?**
-   - **Resposta:** Quando a taxa de chegada de pacotes excede a capacidade de saÌda do roteador, os buffers se enchem e pacotes s„o descartados.
+   - **Resposta:** Quando a taxa de chegada de pacotes excede a capacidade de sa√≠da do roteador, os buffers se enchem e pacotes s√£o descartados.
 
-3. **Qual a fÛrmula para o atraso de transmiss„o?**
-   - **Resposta:** `L / R`, onde L È o tamanho do pacote e R È a taxa de transmiss„o.
+3. **Qual a f√≥rmula para o atraso de transmiss√£o?**
+   - **Resposta:** `L / R`, onde L √© o tamanho do pacote e R √© a taxa de transmiss√£o.
 
-4. **Explique a diferenÁa entre atraso de transmiss„o e de propagaÁ„o.**
-   - **Resposta:** Transmiss„o È o tempo para empurrar o pacote para o link; propagaÁ„o È o tempo que o sinal leva para cruzar o link fÌsico.
+4. **Explique a diferen√ßa entre atraso de transmiss√£o e de propaga√ß√£o.**
+   - **Resposta:** Transmiss√£o √© o tempo para empurrar o pacote para o link; propaga√ß√£o √© o tempo que o sinal leva para cruzar o link f√≠sico.
 
-5. **Para que serve a divis„o do software de rede em camadas?**
-   - **Resposta:** Para modularizar, facilitar o desenvolvimento, manutenÁ„o e substituiÁ„o de partes especÌficas.
+5. **Para que serve a divis√£o do software de rede em camadas?**
+   - **Resposta:** Para modularizar, facilitar o desenvolvimento, manuten√ß√£o e substitui√ß√£o de partes espec√≠ficas.
 
-6. **O que È encapsulamento?**
-   - **Resposta:** Processo de adicionar informaÁıes de controle (cabeÁalhos) em cada camada ‡ medida que os dados descem pela pilha de protocolos.
+6. **O que √© encapsulamento?**
+   - **Resposta:** Processo de adicionar informa√ß√µes de controle (cabe√ßalhos) em cada camada √† medida que os dados descem pela pilha de protocolos.
 
 7. **Quantas camadas tem o modelo OSI? Cite-as.**
-   - **Resposta:** 7 camadas: AplicaÁ„o, ApresentaÁ„o, Sess„o, Transporte, Rede, Enlace, FÌsica.
+   - **Resposta:** 7 camadas: Aplica√ß√£o, Apresenta√ß√£o, Sess√£o, Transporte, Rede, Enlace, F√≠sica.
 
-8. **Quantas camadas tem o modelo TCP/IP? Quais s„o elas?**
-   - **Resposta:** 4 camadas: AplicaÁ„o, Transporte, Rede, Acesso ao meio.
+8. **Quantas camadas tem o modelo TCP/IP? Quais s√£o elas?**
+   - **Resposta:** 4 camadas: Aplica√ß√£o, Transporte, Rede, Acesso ao meio.
 
-9. **Qual a principal funÁ„o da camada de transporte?**
-   - **Resposta:** Garantir a comunicaÁ„o confi·vel fim-a-fim entre aplicaÁıes.
+9. **Qual a principal fun√ß√£o da camada de transporte?**
+   - **Resposta:** Garantir a comunica√ß√£o confi√°vel fim-a-fim entre aplica√ß√µes.
 
-10. **Cite dois protocolos da camada de transporte e suas caracterÌsticas.**
-    - **Resposta:** TCP (confi·vel, com verificaÁ„o de ordem e entrega), UDP (r·pido, sem confiabilidade).
+10. **Cite dois protocolos da camada de transporte e suas caracter√≠sticas.**
+    - **Resposta:** TCP (confi√°vel, com verifica√ß√£o de ordem e entrega), UDP (r√°pido, sem confiabilidade).
 
 11. **O que a camada de enlace faz?**
-    - **Resposta:** Define como os dados s„o acessados ao meio fÌsico, incluindo detecÁ„o de erros e controle de fluxo.
+    - **Resposta:** Define como os dados s√£o acessados ao meio f√≠sico, incluindo detec√ß√£o de erros e controle de fluxo.
 
-12. **Por que o modelo OSI È chamado de modelo de referÍncia?**
-    - **Resposta:** Porque n„o possui implementaÁ„o pr·tica direta; serve para guiar o design de sistemas de rede.
+12. **Por que o modelo OSI √© chamado de modelo de refer√™ncia?**
+    - **Resposta:** Porque n√£o possui implementa√ß√£o pr√°tica direta; serve para guiar o design de sistemas de rede.
 
-13. **Onde est· localizada a maior complexidade na arquitetura da internet: n˙cleo ou borda? Justifique.**
-    - **Resposta:** Na borda, pois os hosts implementam todas as camadas e lidam com aplicaÁıes, protocolos, sessıes e interfaces.
+13. **Onde est√° localizada a maior complexidade na arquitetura da internet: n√∫cleo ou borda? Justifique.**
+    - **Resposta:** Na borda, pois os hosts implementam todas as camadas e lidam com aplica√ß√µes, protocolos, sess√µes e interfaces.
 
 ---
 
 ## 9. Bibliografia
 
 ### Fontes Diretas:
-- **VÌdeo:** Aula 02 ñ Protocolos e Camadas. Prof. JÛ Ueyama. [YouTube ñ UNIVESP](https://www.youtube.com/watch?v=6-RzPthCSns)
-- **Livro:** KUROSE, James F.; ROSS, Keith W. *Redes de Computadores e a Internet*. 6™ ed. Pearson, 2018.
+- **V√≠deo:** Aula 02 ‚Äì Protocolos e Camadas. Prof. J√≥ Ueyama. [YouTube ‚Äì UNIVESP](https://www.youtube.com/watch?v=6-RzPthCSns)
+- **Livro:** KUROSE, James F.; ROSS, Keith W. *Redes de Computadores e a Internet*. 6¬™ ed. Pearson, 2018.
 
 ### Materiais Complementares:
-- [Wikiversidade ñ IntroduÁ„o ‡s Redes](https://pt.wikiversity.org/wiki/Introdu%C3%A7%C3%A3o_%C3%A0s_Redes_de_Computadores/Defini%C3%A7%C3%B5es_das_Redes_de_Computadores)
+- [Wikiversidade ‚Äì Introdu√ß√£o √†s Redes](https://pt.wikiversity.org/wiki/Introdu%C3%A7%C3%A3o_%C3%A0s_Redes_de_Computadores/Defini%C3%A7%C3%B5es_das_Redes_de_Computadores)

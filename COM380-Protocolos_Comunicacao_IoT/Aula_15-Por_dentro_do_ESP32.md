@@ -1,4 +1,4 @@
-# Aula IoT: Protocolos de Comunicação, Microcontroladores e Aplicações
+﻿# Aula IoT: Protocolos de Comunicação, Microcontroladores e Aplicações
 
 Este documento reúne os principais conceitos apresentados na aula – com base no vídeo “Protocolos de Comunicação IoT – Por dentro do ESP32” –, complementando-os com materiais técnicos, avaliações e comparações de sistemas (como o FreeRTOS no Arduino Uno e o uso do ESP32), além de abordagens sobre topologias Zigbee e aplicações de LoRa em ambientes hospitalares. O conteúdo procura ser didático, crítico e voltado para um entendimento aprofundado dos temas essenciais em IoT, suas tecnologias associadas e os desafios em sistemas embarcados.
 
