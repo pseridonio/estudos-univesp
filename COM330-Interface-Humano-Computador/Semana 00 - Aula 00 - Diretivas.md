@@ -14,7 +14,7 @@ Este arquivo fornece um conjunto de diretivas para a criação de conteúdo did�
 
 - **Não infira nada:** Não infira nenhuma informação no contexto. Se houver dúvidas ou se houver informações que não estão claras, pergunte se pode complementar e confirme o contexto.
 
-- **Complemente o conteúdo:** Após gerar o conteúdo dos temas com base no vídeo, utilize materiais confiáveis da internet para complementar o conteúdo. Após isso, complemente com informações confiáveis da internet. Não inclua no conteúdo tópicos que não estejam na aula do vídeo. 
+- **Complemente o conteúdo:** Após gerar o conteúdo dos temas com base no vídeo, utilize os materiais destacados na seção "materiais complementares" para expandir o conteúdo respeitando o tema. Após isso, complemente com informações confiáveis da internet. Não inclua no conteúdo tópicos que não estejam na aula do vídeo. 
 
 - **Lista de exercícios:** Baseado no conteúdo gerado, crie uma seção com uma lista de exercícios com uma quantidade suficiente para cobrir todo o conteúdo sem ser repetitivo, todos acompanhados de uma resolução detalhada, passo a passo.
 
@@ -22,7 +22,7 @@ Este arquivo fornece um conjunto de diretivas para a criação de conteúdo did�
 
 ## Materiais complementares
 
-- [DESIGN E AVALIAÇÃO DE INTERFACES HUMANO-COMPUTADOR](https://learn-us-east-1-prod-fleet02-xythos.content.blackboardcdn.com/5f28363662504/2698356?X-Blackboard-S3-Bucket=learn-us-east-1-prod-fleet01-xythos&X-Blackboard-Expiration=1760313600000&X-Blackboard-Signature=tELqQn5cr1OYZeK6NuhWBG%2B4SCrnyfMKONS12QeLouQ%3D&X-Blackboard-Client-Id=999734&X-Blackboard-S3-Region=us-east-1&response-cache-control=private%2C%20max-age%3D21600&response-content-disposition=inline%3B%20filename%2A%3DUTF-8%27%27Rocha_Baranauskas_Design_e_avaliacao_de_IHC.pdf&response-content-type=application%2Fpdf&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIHRU9OctJFa2Ef4ANU24jFA%2FTbzB%2B6Xx8l5ss45DXiscAiEAiKPOkVetE75eX9Qd2GpJ5u40plxSsSaZ6NSBuSaEi1YqswUINRAEGgw2MzU1Njc5MjQxODMiDNVh%2BqxqN0xI46T1FSqQBb1rZkfbw6GjCYsnDKVX1Ld%2FTl8SbjXR01O6BxJe%2FmewibDWATg2UP%2Fi48NyJVrbsDzT5SWazH3sdoGioKbhl7kT3FUP2XBzLY7TMPxAwQ05wD7iOB0x5KmBN%2BBKyHCxLeH4K%2BK1FEHincbFQNRlujgrBCBn8OpRNGwHUZtEW%2BDBam2swMZKEl%2BnqHyqYMAhEyuhmIcQJ7JdpXzjP6Xzr4%2BQdIBbmU%2BY%2F6hcuS%2BcCr%2FQ6y0H3n9iwRBBL1qqLq8KgLlVaUH5mMYnzW0Fp5COm1Dc1PpaJZ9b3bH%2FttPYsmouaYJx%2F7LATMGOgJwNTE0FzCDriGhZY0bLXpe3rnX2O1mieHptE%2FW2mD0lCeH2kai2XpUEnurc2ELmY2X%2FydYbuov7yuMFCrm4N%2BLQkL52TV6mlsNOLsxpnT9d27FQ7dyVitoyOnWgVGwzUokNKkSG9dT3yG78csm9h20U%2B9uB9vCMFlQQxW3lRfPr%2F4RYosCqrCnJ77RyyxxjrPJ0JV%2Bc01KX86JS7RUneLQqGWAEkNK1nZnh5tiBHK%2FKiU6c0O0GqO3zwHr3R4VRhM4PqvJytUDYGyPDhR72gPG7718SyWd%2BTSHuCh6ZEkDFpvSSQ0GLUnQJCAofmcFtZSVKH7aD%2B%2FTnwz8uT7%2BdsCzqXaoAP8GBe2O9hB6JnFAk2LnOsHsRRg92UyJ6IusnQ%2Bn1qoa06SeZ8QBZAdExfQf%2FSIJmMDg0a85HvjG4y28DIkAK1bgJTQS7aUHNHuff7YwLfw9R2lTxIr1ED4GQwUnoYAXMehQWxhWy%2BjrlGAj7dD5MP%2FBLIr56AiaMJokpDUhRUSfRZFT9%2FTtXMCiZfAcQzrYD0pEpq68U%2BUso%2FFctZbN68vFUMK2DsMcGOrEBySogn%2FQptw1out1EJxew6v7wRU0XOYSIlq0YCBChQE5R1SqEq7xP2tCgfiQNQ5xhYfWz07Kq9ZklXCkumqOtm2F8%2BImMKH1BNbxEqzxXH8PWzbzAJNWWTn5ChSiQWSbaVlCLB3%2B2d6%2BeKhZ2cZuCsLPrjJLs4lnwkIH1DxgtjPULfUuWpmxySYItfd1pjMi07kCloq7zctas1v5PlT8w1CMqGRxb27DFcy7aiGRrt1p3&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251012T180000Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Credential=ASIAZH6WM4PLRQ6VPDUG%2F20251012%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=91cf03c951d857ba70f8e609af89dccbe805061f460c7d94700a6e1abe7f8c32)
+- DA ROCHA, Heloisa Vieira; BARANAUSKAS, Marilia Cecilia Calani. [DESIGN E AVALIAÇÃO DE INTERFACES HUMANO-COMPUTADOR](https://learn-us-east-1-prod-fleet02-xythos.content.blackboardcdn.com/5f28363662504/2698356?X-Blackboard-S3-Bucket=learn-us-east-1-prod-fleet01-xythos&X-Blackboard-Expiration=1760313600000&X-Blackboard-Signature=tELqQn5cr1OYZeK6NuhWBG%2B4SCrnyfMKONS12QeLouQ%3D&X-Blackboard-Client-Id=999734&X-Blackboard-S3-Region=us-east-1&response-cache-control=private%2C%20max-age%3D21600&response-content-disposition=inline%3B%20filename%2A%3DUTF-8%27%27Rocha_Baranauskas_Design_e_avaliacao_de_IHC.pdf&response-content-type=application%2Fpdf&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIHRU9OctJFa2Ef4ANU24jFA%2FTbzB%2B6Xx8l5ss45DXiscAiEAiKPOkVetE75eX9Qd2GpJ5u40plxSsSaZ6NSBuSaEi1YqswUINRAEGgw2MzU1Njc5MjQxODMiDNVh%2BqxqN0xI46T1FSqQBb1rZkfbw6GjCYsnDKVX1Ld%2FTl8SbjXR01O6BxJe%2FmewibDWATg2UP%2Fi48NyJVrbsDzT5SWazH3sdoGioKbhl7kT3FUP2XBzLY7TMPxAwQ05wD7iOB0x5KmBN%2BBKyHCxLeH4K%2BK1FEHincbFQNRlujgrBCBn8OpRNGwHUZtEW%2BDBam2swMZKEl%2BnqHyqYMAhEyuhmIcQJ7JdpXzjP6Xzr4%2BQdIBbmU%2BY%2F6hcuS%2BcCr%2FQ6y0H3n9iwRBBL1qqLq8KgLlVaUH5mMYnzW0Fp5COm1Dc1PpaJZ9b3bH%2FttPYsmouaYJx%2F7LATMGOgJwNTE0FzCDriGhZY0bLXpe3rnX2O1mieHptE%2FW2mD0lCeH2kai2XpUEnurc2ELmY2X%2FydYbuov7yuMFCrm4N%2BLQkL52TV6mlsNOLsxpnT9d27FQ7dyVitoyOnWgVGwzUokNKkSG9dT3yG78csm9h20U%2B9uB9vCMFlQQxW3lRfPr%2F4RYosCqrCnJ77RyyxxjrPJ0JV%2Bc01KX86JS7RUneLQqGWAEkNK1nZnh5tiBHK%2FKiU6c0O0GqO3zwHr3R4VRhM4PqvJytUDYGyPDhR72gPG7718SyWd%2BTSHuCh6ZEkDFpvSSQ0GLUnQJCAofmcFtZSVKH7aD%2B%2FTnwz8uT7%2BdsCzqXaoAP8GBe2O9hB6JnFAk2LnOsHsRRg92UyJ6IusnQ%2Bn1qoa06SeZ8QBZAdExfQf%2FSIJmMDg0a85HvjG4y28DIkAK1bgJTQS7aUHNHuff7YwLfw9R2lTxIr1ED4GQwUnoYAXMehQWxhWy%2BjrlGAj7dD5MP%2FBLIr56AiaMJokpDUhRUSfRZFT9%2FTtXMCiZfAcQzrYD0pEpq68U%2BUso%2FFctZbN68vFUMK2DsMcGOrEBySogn%2FQptw1out1EJxew6v7wRU0XOYSIlq0YCBChQE5R1SqEq7xP2tCgfiQNQ5xhYfWz07Kq9ZklXCkumqOtm2F8%2BImMKH1BNbxEqzxXH8PWzbzAJNWWTn5ChSiQWSbaVlCLB3%2B2d6%2BeKhZ2cZuCsLPrjJLs4lnwkIH1DxgtjPULfUuWpmxySYItfd1pjMi07kCloq7zctas1v5PlT8w1CMqGRxb27DFcy7aiGRrt1p3&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251012T180000Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Credential=ASIAZH6WM4PLRQ6VPDUG%2F20251012%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=91cf03c951d857ba70f8e609af89dccbe805061f460c7d94700a6e1abe7f8c32)
 
 - Livro "Design de Interação: Além da Interação Humano-Computador" de Helen Sharp, Yvonne Rogers e Jenny Preece.
 
@@ -46,6 +46,8 @@ Este arquivo fornece um conjunto de diretivas para a criação de conteúdo did�
 
 - AMBROSE, Gavin; HARRIS, Paul. Design thinking. (Design básico). Porto Alegre: Bookman, 2010. E-book. p.10. ISBN 9788577808267. Disponível em: https://app.minhabiblioteca.com.br/reader/books/9788577808267/. Acesso em: 19 out. 2025.
 
+- [ISO/IEC 25010](https://www.iso.org/obp/ui/es/#iso:std:iso-iec:25010:ed-1:v1:en)
+
 - Pesquise em sites da web confiáveis para complementar os dados, independente do idioma do site.
 
 ## Saída esperada
@@ -58,7 +60,7 @@ Este arquivo fornece um conjunto de diretivas para a criação de conteúdo did�
   - Introdução
   - Desenvolvimento 
 	- Utilize subtítulos para organizar o conteúdo.
-	- Detalhe os conceitos apresentados no vídeo com explicações passo a passo.
+	- Faça um deep dive nos conceitos apresentados no vídeo com explicações passo a passo.
 	- Sempre que houver uma operação matemática, lógica ou de conversão, explique cada etapa da operação, incluindo:
 		- A fórmula utilizada.
 		- O significado de cada variável.
@@ -73,6 +75,8 @@ Este arquivo fornece um conjunto de diretivas para a criação de conteúdo did�
   - Conclusão
   - Análise crítica (se aplicável)
   - Sugestões de complementação (se aplicável)
+	  - Sugira detalhes ou tópicos que poderiam ser adicionados ao vídeo para torná-lo mais completo.
+	  - Sugira links ou referências adicionais para aprofundamento no tema.
   - Exercícios (com resolução detalhada)
 	- Crie uma seção de exercícios com uma quantidade suficiente para cobrir todo o conteúdo sem ser repetitivo.
 	- Os exercícios devem ser variados e abordar diferentes aspectos do conteúdo.
@@ -83,11 +87,3 @@ Este arquivo fornece um conjunto de diretivas para a criação de conteúdo did�
 	- Utilize sempre fontes confiáveis.
 	- Utilize o formato ABNT para referências bibliográficas. 
 	- Inclua na bibliografia os materiais complementares utilizados.
-  - Materiais complementares
-	- Utilize os materiais listados na seção "Materiais complementares" para complementar o conteúdo.
-	- Após isso, complemente com informações confiáveis da internet.
-	- Não inclua no markdown tópicos que não estejam na aula do vídeo. Por exemplo, se a aula não falar de topologia, não aborde topologia no markdown, mesmo que tenha topologia nos outros materiais.
-	- Inclua o nome das fontes, autores, sites quando disponível, links quando disponível e data do acesso.
-	- Quando for baseado no conteúdo de livros, informe o autor, editora, edição, e ano de lançamento.
-	- Utilize sempre fontes confiáveis.
-	- Utilize o formato ABNT para referências bibliográficas.
