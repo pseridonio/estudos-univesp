@@ -121,6 +121,23 @@ Sempre que houver qualquer cálculo:
 
 Nunca apresente fórmulas isoladas.
 
+### Formulas em LaTeX:
+
+Sempre que houver uma formula apresente a formula em LaTeX, utilizando a sintaxe correta para que seja renderizada adequadamente. Por exemplo:
+
+**Multilinhas:**  
+
+A fórmula é dada por:
+
+$$
+E = mc^2
+$$
+
+
+**Inline:**  
+
+A fórmula é dada por $E = mc^2$.
+
 ---
 
 ## 🌐 Conteúdo Complementar Externo
