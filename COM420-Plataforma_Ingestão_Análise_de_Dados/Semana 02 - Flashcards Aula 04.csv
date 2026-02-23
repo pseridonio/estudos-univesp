@@ -1,0 +1,25 @@
+Por que surgiram bancos NoSQL?;Para lidar com escala massiva, dados heterogêneos, esquemas dinâmicos e distribuição global.
+O que caracteriza elasticidade na nuvem?;Capacidade(t) proporcional a lambda(t), ajustando recursos dinamicamente conforme a carga.
+Quais são os principais tipos de bancos NoSQL?;Chave-valor, Documento, Colunar e Grafo.
+Qual a diferença estrutural entre modelo relacional e de documentos?;No relacional todos compartilham o mesmo conjunto E de atributos / no documento cada registro pode ter subconjunto diferente de E.
+Quando bancos orientados a grafos são mais adequados?;Quando o problema envolve relacionamentos complexos como redes sociais e recomendações.
+Quais são os elementos fundamentais do Neo4j?;Nós, Relacionamentos e Propriedades.
+Qual a complexidade aproximada de joins relacionais?;O(n * m).
+Qual a complexidade típica de navegação em grafos?;O(k), onde k é o número de relacionamentos conectados.
+Neo4j suporta ACID?;Sim, oferece transações ACID completas.
+O que é CouchDB?;Banco de dados orientado a documentos que armazena JSON com identificadores únicos.
+Qual a fórmula da probabilidade de falha total com replicação?;P = p^r.
+Qual a principal característica de replicação do CouchDB?;Replicação multi-master.
+Qual arquitetura o Cassandra utiliza?;Arquitetura peer-to-peer sem nó mestre único.
+Como Cassandra distribui dados?;Usando hashing consistente: posição = hash(chave).
+Qual condição garante consistência forte no Cassandra?;W + R > N.
+O que representam W e R no Cassandra?;W é o número mínimo de escritas confirmadas; R é o número mínimo de leituras.
+Quais métodos HTTP são usados em APIs REST?;GET, POST, PUT e DELETE.
+Como NoSQL simplifica integração com frontend?;Retornando documentos JSON completos sem necessidade de joins.
+A ausência de esquema rígido implica ausência de integridade?;Não. A integridade pode ser garantida por validação, regras configuráveis e versionamento.
+Como a replicação reduz latência geográfica?;T aproximadamente igual ao menor valor entre L1, L2, ..., Ln.
+Quais são casos de uso comuns de NoSQL?;Logs, eventos massivos, redes sociais e sistemas de recomendação.
+NoSQL substitui totalmente bancos relacionais?;Não. Amplia o arsenal arquitetural, mas não substitui completamente.
+Qual risco da flexibilidade excessiva em NoSQL?;Desorganização e falta de governança.
+Se N = 5 no Cassandra, qual condição mínima para consistência forte?;W + R > 5, por exemplo W = 3 e R = 3.
+Se p = 0,02 e r = 3, qual a probabilidade de falha total?;0,000008.

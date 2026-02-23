@@ -1,0 +1,21 @@
+Front,Back
+Por que o armazenamento é crítico em plataformas de dados?,"Porque impacta desempenho, escalabilidade, custo, governança, segurança e tolerância a falhas."
+Qual é o modelo ideal de tempo de processamento distribuído?,"T proporcional a V/n, onde V é o volume de dados e n é o número de nós."
+Qual é o modelo considerando custo de rede?,T = V/n + C_rede.
+O que significa ACID?,"Atomicidade, Consistência, Isolamento e Durabilidade."
+O que garante a Atomicidade?,Todas as operações da transação são executadas ou nenhuma é aplicada.
+Qual protocolo coordena transações distribuídas?,Two-Phase Commit (2PC).
+O que é escalabilidade vertical?,"Aumento de recursos em um único servidor (CPU, memória, disco)."
+O que é escalabilidade horizontal?,Adicionar novos servidores ao sistema.
+Qual a fórmula da capacidade total na escalabilidade horizontal?,Capacidade_total = k * X.
+Como modelamos consistência forte?,"Para todo i,j: D_Ni = D_Nj."
+O que diz o Teorema CAP?,"Um sistema distribuído só pode garantir dois entre Consistência, Disponibilidade e Tolerância à Partição."
+Qual é a fórmula da probabilidade de falha com replicação?,P_falha = p^r.
+Como funciona o modelo chave-valor?,Usa função hash distribuída: Nó = hash(chave) mod n.
+Quando usar modelo relacional?,Quando há necessidade de integridade referencial e transações complexas.
+O que é sharding?,Fragmentação de dados entre múltiplos nós.
+O que é replicação?,Criação de cópias redundantes para tolerância a falhas.
+O que é elasticidade na nuvem?,Ajuste automático de recursos sob demanda.
+Qual a diferença entre CAPEX e OPEX?,CAPEX é investimento inicial; OPEX é custo operacional recorrente.
+SQL substitui NoSQL?,Não. São soluções para problemas distintos.
+Qual é o principal desafio do armazenamento distribuído?,"Gerenciar o trade-off entre consistência, disponibilidade, escalabilidade e custo."

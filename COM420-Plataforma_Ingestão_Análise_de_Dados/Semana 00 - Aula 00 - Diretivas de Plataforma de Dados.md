@@ -46,7 +46,6 @@ A transcrição deve ser usada **somente para**:
   * Exemplos importantes
   * Fórmulas apresentadas
   * Limites de escopo do conteúdo
-  * Temas e tópicos abordados
 
 A transcrição **NÃO deve influenciar**:
 
@@ -85,7 +84,7 @@ Para **cada conceito**, aplique a seguinte progressão:
 1. **Contexto**
 
    * Para que isso existe?
-   * Onde é usado em sistemas embarcados?
+   * Onde é usado em Plataformas de Ingestão e Análise de Dados?
 
 2. **Conceito**
 
@@ -122,15 +121,49 @@ Sempre que houver qualquer cálculo:
 
 Nunca apresente fórmulas isoladas.
 
+### Formulas em LaTeX:
+
+Sempre que houver uma formula apresente a formula em LaTeX, utilizando a sintaxe correta para que seja renderizada adequadamente. Por exemplo:
+
+**Multilinhas:**  
+
+A fórmula é dada por:
+
+$$
+E = mc^2
+$$
+
+
+**Inline:**  
+
+A fórmula é dada por $E = mc^2$.
+
 ---
+
+## 📐 Diagramação e Visualização
+
+* Utilize diagramas, gráficos e tabelas para:
+  * Esclarecer conceitos complexos
+  * Visualizar relações e estruturas
+
+* Certifique-se de que todos os elementos visuais sejam:
+  * Relevantes
+  * Bem explicados
+  * Integrados ao texto
+
+* Evite elementos visuais que sejam meramente decorativos ou que não agreguem valor ao entendimento.
+* Utilize legendas e descrições detalhadas para cada elemento visual, garantindo que o leitor compreenda completamente o que está sendo apresentado.
+* Utilize o padrão mermaid para diagramas, garantindo que sejam renderizados corretamente e de forma clara.
 
 ## 🌐 Conteúdo Complementar Externo
 
 * Utilize fontes externas para:
+
   * Esclarecer conceitos
   * Aprofundar explicações
 * As fontes **não devem introduzir novos temas**
 * Qualquer conteúdo externo deve:
+
   * Estar alinhado com o tema central
   * Ser referenciado corretamente (ABNT)
 
@@ -147,7 +180,7 @@ Nunca apresente fórmulas isoladas.
 ### 2. Introdução
 
 * Contextualização do tema
-* Importância em `Plataforma de Ingestão e Análise de Dados`
+* Importância em Plataformas de Ingestão e Análise de Dados
 * Aplicações reais
 
 ---
