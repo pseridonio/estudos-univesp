@@ -1,251 +1,354 @@
-﻿# Introdução às Redes de Computadores
-
-## Objetivos e importância
-
-A rede de computadores surgiu para permitir que elementos computacionais troquem dados e compartilhem recursos, como áudio, vídeo e aplicações hospedadas em hosts remotos.  
-
-No contexto de infraestrutura para sistemas de software, compreender redes é fundamental para projetar, implementar e manter aplicações distribuídas na nuvem, Internet das Coisas e demais soluções que dependem de comunicação confiável entre clientes, servidores e dispositivos inteligentes.
+﻿# Redes de Computadores na Infraestrutura de Sistemas de Software
 
 ---
 
-## Definições e conceitos principais
+## Introdução
 
-As redes de computadores são formadas por:
+A infraestrutura de sistemas de software modernos é, essencialmente, uma infraestrutura de comunicação. Aplicações distribuídas, arquiteturas em microserviços, computação em nuvem, plataformas SaaS e dispositivos inteligentes dependem de redes de computadores para existir. Não há software corporativo relevante hoje que não opere sobre uma rede — seja ela local, metropolitana ou global.
 
-- Usuários e aplicações  
-- Elementos de comutação: roteadores e switches  
-- Servidores (web, proxy, de aplicação etc.)  
-- Meio físico (cabeado ou sem fio)  
-- Dispositivos finais: desktops, notebooks, tablets e celulares  
+Compreender redes de computadores não é apenas uma habilidade complementar para o engenheiro de software; é uma competência estrutural. Ao projetar um sistema distribuído, ao dimensionar uma aplicação para nuvem ou ao diagnosticar problemas de desempenho, estamos lidando diretamente com conceitos de comunicação, latência, vazão, protocolos e organização em camadas.
 
-Cada um desses componentes processa, encaminha ou gera dados em pacotes (datagramas) que trafegam por links de comunicação. Protocolos padronizados definem como esses pacotes são formatados, endereçados, transmitidos e reenviados em caso de perda.
+Este capítulo apresenta os fundamentos de redes de computadores sob a perspectiva da infraestrutura para sistemas de software, estabelecendo as bases conceituais necessárias para o estudo de arquiteturas distribuídas, serviços em nuvem e aplicações conectadas.
 
 ---
 
-## Arquitetura em camadas
+## 1. Fundamentos e Objetivos das Redes de Computadores
 
-Para lidar com a complexidade da comunicação, adota-se um modelo em camadas. Cada camada oferece serviços para a camada acima e utiliza serviços da camada abaixo.
+### Contexto
 
-| Camada OSI (7)           | Camadas didáticas TCP/IP (5)   | Camadas práticas TCP/IP (4)    |
-|--------------------------|--------------------------------|---------------------------------|
-| 7. Aplicação             | 5. Aplicação                   | Aplicação                       |
-| 6. Apresentação          | 4. Transporte                  | Transporte                      |
-| 5. Sessão                | 3. Internet                    | Internet                        |
-| 4. Transporte            | 2. Acesso à rede (Enlace)      | Acesso à rede                   |
-| 3. Rede                  | 1. Física                      |                                 |
-| 2. Enlace                |                                |                                 |
-| 1. Física                |                                |                                 |
+Sistemas modernos raramente operam isoladamente. Um backend comunica-se com bancos de dados remotos, APIs externas, serviços de autenticação, filas de mensagens e dispositivos clientes distribuídos globalmente. Esse ecossistema só é possível porque existe uma estrutura que permite comunicação entre elementos computacionais distintos.
 
-### Encapsulamento e desencapsulamento
+### Conceito
 
-Para exemplificar:
+Uma rede de computadores é um conjunto de dispositivos interconectados capazes de trocar informações entre si por meio de regras e tecnologias padronizadas.
 
-1. O emissor coloca a informação (palito de fósforo) dentro de uma série de “caixas” (protocol headers).  
-2. Cada camada adiciona seu cabeçalho, formando segmentos, datagramas e quadros.  
-3. O meio físico transporta o sinal resultante.  
-4. No receptor, o processo é invertido: cada camada retira seu cabeçalho até recuperar a informação original.
+Esses dispositivos podem incluir:
 
----
+* Computadores pessoais
+* Servidores
+* Roteadores
+* Switches
+* Smartphones
+* Dispositivos IoT
 
-## Camadas do modelo TCP/IP
+O propósito fundamental de uma rede é permitir:
 
-### Camada de Aplicação
+* Comunicação entre dispositivos
+* Compartilhamento de recursos
+* Execução remota de aplicações
+* Distribuição de dados multimídia
 
-Responsável pela interface com software de usuário e formatação das mensagens. Exemplos:
+### Funcionamento
 
-- HTTP em comércio eletrônico  
-- SMTP/IMAP para e-mail  
-- DNS para resolução de nomes  
+A comunicação ocorre por meio de enlaces físicos ou sem fio que conectam dispositivos. Esses enlaces transportam sinais elétricos, ópticos ou eletromagnéticos que representam dados digitais.
 
-### Camada de Transporte
+A rede transforma bits (0 e 1) em sinais físicos e os reconverte no destino.
 
-Fornece comunicação lógica fim a fim entre aplicações em hosts distintos. Os principais protocolos são:
+### Exemplo Explicado
 
-- UDP (User Datagram Protocol)  
-  - Sem conexão; não garante entrega nem ordem  
-  - Cabeçalho simples (porta origem, porta destino, comprimento, checksum)  
-  - Uso em DNS, streaming de áudio/vídeo e VoIP  
+Considere uma aplicação web hospedada em um servidor na nuvem. Quando um usuário acessa essa aplicação:
 
-- TCP (Transmission Control Protocol)  
-  - Orientado a conexão; garante confiabilidade, controle de fluxo e congestionamento  
-  - Estabelece handshake em três vias  
-  - Cabeçalho mais complexo (seqüência, ACK, janela, flags)  
-  - Uso em HTTP, FTP, e-mail e transferência de arquivos  
+1. Seu dispositivo gera uma requisição.
+2. Essa requisição percorre diversos roteadores.
+3. A mensagem chega ao servidor.
+4. O servidor responde.
+5. A resposta percorre o caminho inverso.
 
-### Camada Internet (Rede)
-
-Responsável pelo endereçamento lógico e roteamento de pacotes. O protocolo mais comum é o IPv4 (e, em expansão, o IPv6).
-
-### Camada de Acesso à Rede (Enlace e Física)
-
-Cuida da codificação de bits, transmissão binária e acesso ao meio físico:
-
-- Tipos de meio: par trançado, fibra óptica, cabo coaxial ou rádio  
-- Codificação, detecção de erro e controle de acesso  
+Todo esse processo é mediado pela infraestrutura de rede.
 
 ---
 
-## A Internet e a Web
+## 2. Elementos que Compõem uma Rede
 
-A Internet é a interconexão de milhões de redes regionais, corporativas e domésticas, composta por roteadores, enlaces cabeados e sem fio, provedores de serviços e hosts finais. Em cima dessa infraestrutura, a WWW (World Wide Web) surge como uma aplicação distribuída de documentos interligados por hipermídia, acessados via HTTP.
+### Contexto
+
+Para que a comunicação aconteça, diferentes tipos de componentes desempenham papéis específicos.
+
+### Conceito
+
+Os principais elementos de uma rede incluem:
+
+* Dispositivos finais (hosts)
+* Dispositivos intermediários
+* Meio físico
+* Protocolos
+
+### Funcionamento
+
+Os dispositivos finais geram e consomem dados.
+Os dispositivos intermediários direcionam e organizam o tráfego.
+O meio físico transporta os sinais.
+Os protocolos definem as regras da comunicação.
+
+### Diagrama Estrutural Simplificado
+
+```mermaid
+graph LR
+A[Usuário / Cliente] --> B[Switch]
+B --> C[Roteador]
+C --> D[Servidor]
+```
+
+Esse fluxo representa uma comunicação típica cliente-servidor.
 
 ---
 
-## Exercícios
+## 3. Links de Comunicação e Vazão
 
-1. **Defina rede de computadores e explique seus dois principais objetivos.**  
-   Resolução:  
-   - Troca de dados entre elementos computacionais.  
-   - Compartilhamento de recursos (aplicações, áudio, vídeo).  
+### Contexto
 
-2. **Liste cinco componentes que formam uma rede de computadores.**  
-   Resolução:  
-   1. Roteador  
-   2. Switch  
-   3. Servidor web  
-   4. Placa de rede (NIC)  
-   5. Meio físico (cabo ou rádio)  
+Nem todos os enlaces de rede oferecem o mesmo desempenho. A capacidade de transporte de dados impacta diretamente sistemas distribuídos.
 
-3. **Compare roteador e switch, indicando em qual camada cada um opera.**  
-   Resolução:  
-   - Switch: camada de enlace; encaminha quadros com base em endereços MAC.  
-   - Roteador: camada de rede; encaminha pacotes usando endereços IP.  
+### Conceito
 
-4. **Explique o conceito de encapsulamento em redes.**  
-   Resolução:  
-   - Processo de adicionar cabeçalhos em cada camada do emissor e retirar no receptor.  
+A vazão (throughput) é a taxa efetiva de transferência de dados em um link de comunicação.
 
-5. **Represente em cinco passos a sequência de encapsulamento no modelo didático de 5 camadas.**  
-   Resolução:  
-   1. Aplicação gera dados  
-   2. Transporte encapsula em segmento  
-   3. Internet encapsula em datagrama  
-   4. Enlace encapsula em quadro  
-   5. Física transforma em bits e envia  
+Ela pode ser representada por:
 
-6. **Descreva como funciona o handshake de três vias do TCP.**  
-   Resolução:  
-   1. SYN do cliente ao servidor.  
-   2. SYN+ACK do servidor ao cliente.  
-   3. ACK final do cliente ao servidor.  
+$$
+T = \frac{D}{t}
+$$
 
-7. **Cite dois casos de uso típicos para o UDP.**  
-   Resolução:  
-   - Transmissão de vídeo ao vivo.  
-   - Consultas DNS.  
+Onde:
 
-8. **Por que o modelo OSI não foi adotado na prática?**  
-   Resolução:  
-   - Modelo de referência; era complexo e fragmentado em sete camadas independentes.  
+* $T$ = vazão (bits por segundo)
+* $D$ = quantidade de dados transmitidos (bits)
+* $t$ = tempo gasto (segundos)
 
-9. **Quais camadas do OSI foram unificadas no TCP/IP?**  
-   Resolução:  
-   - Aplicação, Apresentação e Sessão → Camada de Aplicação  
-   - Enlace e Física → Camada de Acesso à Rede  
+### Funcionamento
 
-10. **Explique o papel do endereço lógico na camada de Internet.**  
-    Resolução:  
-    - Identificação única de host para roteamento de pacotes.  
+A vazão depende de:
 
-11. **Descreva três formas de meio físico e suas características de transmissão.**  
-    Resolução:  
-    1. Par trançado: cobre, suscetível a EMI, até 1 Gbps.  
-    2. Fibra óptica: alta largura de banda, imune a ruído.  
-    3. Rádio: sem fio, variável conforme frequência e ambiente.  
+* Tecnologia do meio físico (fibra, cobre, rádio)
+* Congestionamento
+* Capacidade dos dispositivos intermediários
 
-12. **O que é largura de banda e como ela se relaciona ao meio de comunicação?**  
-    Resolução:  
-    - Capacidade máxima de transmissão de dados em bps; depende da tecnologia do meio.  
+### Exemplo Resolvido
 
-13. **Defina o que é a WWW e diferencie-a da Internet.**  
-    Resolução:  
-    - WWW: aplicação distribuída de documentos interligados.  
-    - Internet: rede de redes que oferece infraestrutura.  
+Suponha que 500 MB sejam transmitidos em 20 segundos.
 
-14. **Descreva um exemplo de como um sensor IoT utiliza redes de computadores.**  
-    Resolução:  
-    - Sensor envia datagramas UDP para servidor na nuvem, sem garantia de entrega, ideal para leituras periódicas.  
+Primeiro convertemos para bits:
 
-15. **Explique o que acontece quando um quadro se perde na rede.**  
-    Resolução:  
-    - Protocolo de transporte TCP reenvia segmento após timeout; UDP ignora.  
+1 byte = 8 bits  
+500 MB = $500 \times 10^6$ bytes
 
-16. **Por que a comunicação sem fio pode exigir antenas e placas específicas?**  
-    Resolução:  
-    - Necessidade de captar/transmitir sinais de rádio e converter em dados.  
+$$
+D = 500 \times 10^6 \times 8
+$$
 
-17. **Como o controle de congestionamento do TCP protege a rede?**  
-    Resolução:  
-    - Ajusta dinamicamente a janela de transmissão conforme feedback de ACKs e detecção de perdas.  
+$$
+D = 4 \times 10^9 \text{ bits}
+$$
 
-18. **Explique o processo inverso de desencapsulamento no receptor.**  
-    Resolução:  
-    - Cada camada remove seu cabeçalho e processa informação, até recuperar dados da aplicação.  
+Aplicando na fórmula:
 
-19. **Cite cinco protocolos de camada de aplicação e suas funções.**  
-    Resolução:  
-    1. HTTP – transferência de hipertextos.  
-    2. FTP – transferência de arquivos.  
-    3. SMTP – envio de e-mail.  
-    4. DNS – resolução de nomes.  
-    5. DHCP – atribuição dinâmica de endereços IP.  
+$$
+T = \frac{4 \times 10^9}{20}
+$$
 
-20. **Descreva a diferença entre comunicação lógica e física fim a fim.**  
-    Resolução:  
-    - Lógica: conexão estabelecida em camada de transporte;  
-    - Física: percurso real dos sinais.  
+$$
+T = 2 \times 10^8 \text{ bits/s}
+$$
 
-21. **O que garante a entrega ordenada de pacotes no TCP?**  
-    Resolução:  
-    - Numeração de sequência e ACKs cumulativos.  
+Portanto:
 
-22. **Identifique dois fabricantes distintos de equipamentos de rede e por que a padronização é importante.**  
-    Resolução:  
-    - Cisco, Juniper; padronização em protocolos permite interoperabilidade.  
+$$
+T = 200 \text{ Mbps}
+$$
 
-23. **Explique o que é um datagrama e como ele difere de um segmento.**  
-    Resolução:  
-    - Datagrama: unidade de IP (camada de rede);  
-    - Segmento: unidade de TCP/UDP (camada de transporte).  
+---
 
-24. **Quais são as vantagens e desvantagens do modelo em camadas?**  
-    Resolução:  
-    - Vantagens: modularidade, padronização;  
-    - Desvantagens: overhead de cabeçalhos, possível complexidade.  
+## 4. Protocolos de Rede
 
-25. **Descreva como um switch aprende endereços MAC.**  
-    Resolução:  
-    - Analisa origem dos quadros e atualiza tabela de endereçamento.  
+### Contexto
 
-26. **Por que o TCP/IP é o modelo predominante na Internet?**  
-    Resolução:  
-    - Simplicidade, robustez, ampla adoção histórica e padronização IETF.  
+Se dispositivos simplesmente enviassem sinais sem regras, a comunicação seria impossível.
 
-27. **O que difere IPv4 de IPv6?**  
-    Resolução:  
-    - IPv6: cabeçalho simplificado, espaço de endereçamento de 128 bits vs 32 bits do IPv4.  
+### Conceito
 
-28. **Explique quando usar UDP em vez de TCP.**  
-    Resolução:  
-    - Cenários que toleram perda: streaming em tempo real, gaming online.  
+Protocolos são conjuntos de regras que definem como dados são:
 
-29. **Como a camada de aplicação sabe que porta usar?**  
-    Resolução:  
-    - Através de convenções e registros oficiais (IANA) ou configuração de serviço.  
+* Formatados
+* Transmitidos
+* Recebidos
+* Interpretados
 
-30. **Descreva um cenário onde múltiplos roteadores formam a Internet.**  
-    Resolução:  
-    1. Provedor A conecta região Norte.  
-    2. Provedor B conecta região Sul.  
-    3. Roteadores trocam rotas via BGP.  
-    4. Hosts em redes distintas comunicam-se através desses roteadores.  
+### Funcionamento
+
+Um protocolo define:
+
+* Estrutura da mensagem
+* Sequência de envio
+* Tratamento de erros
+* Controle de fluxo
+
+Sem protocolos, não há interoperabilidade.
+
+---
+
+## 5. Comunicação em Camadas
+
+### Contexto
+
+A comunicação em rede é complexa. Para gerenciar essa complexidade, ela é organizada em camadas.
+
+### Conceito
+
+O modelo em camadas divide a comunicação em níveis hierárquicos, cada um com responsabilidade específica.
+
+### Razão da Organização
+
+* Separação de responsabilidades
+* Independência de implementação
+* Facilitação da manutenção
+* Padronização global
+
+---
+
+## 6. Modelos de Referência: OSI e TCP/IP
+
+### Modelo OSI
+
+Possui 7 camadas:
+
+1. Física
+2. Enlace
+3. Rede
+4. Transporte
+5. Sessão
+6. Apresentação
+7. Aplicação
+
+### Modelo TCP/IP
+
+Mais utilizado na prática, possui 4 camadas:
+
+1. Aplicação
+2. Transporte
+3. Internet
+4. Acesso à Rede
+
+### Comparação
+
+```mermaid
+graph TD
+A[Aplicação TCP/IP] --> B[Aplicação OSI]
+A --> C[Apresentação OSI]
+A --> D[Sessão OSI]
+E[Transporte TCP/IP] --> F[Transporte OSI]
+G[Internet TCP/IP] --> H[Rede OSI]
+I[Acesso à Rede TCP/IP] --> J[Enlace OSI]
+I --> K[Física OSI]
+```
+
+---
+
+## 7. Encapsulamento
+
+### Conceito
+
+Encapsulamento é o processo pelo qual cada camada adiciona seu próprio cabeçalho à mensagem.
+
+### Funcionamento
+
+Aplicação → Transporte → Internet → Acesso à Rede
+
+Cada camada adiciona informações de controle.
+
+### Representação
+
+```mermaid
+graph LR
+A[Dados] --> B[Segmento]
+B --> C[Pacote]
+C --> D[Quadro]
+```
+
+---
+
+## 8. Internet e World Wide Web
+
+### Internet
+
+É uma rede de redes interconectadas globalmente.
+
+### WWW
+
+É uma aplicação distribuída que utiliza a infraestrutura da Internet.
+
+A Internet é a infraestrutura.
+A WWW é um serviço executado sobre essa infraestrutura.
+
+---
+
+## Conclusão
+
+Redes de computadores constituem a base da infraestrutura de sistemas modernos. Elas permitem comunicação, compartilhamento de recursos e execução distribuída de aplicações. A organização em camadas viabiliza a interoperabilidade global e simplifica o desenvolvimento de sistemas complexos.
+
+Compreender redes é compreender como sistemas distribuídos realmente funcionam.
+
+---
+
+## Análise Crítica
+
+A abstração em camadas simplifica o entendimento, mas pode ocultar gargalos reais. Engenheiros de software precisam compreender o que ocorre em níveis inferiores para diagnosticar problemas de latência, perda de pacotes e congestionamento.
+
+Ignorar fundamentos de rede pode levar a decisões arquiteturais inadequadas.
+
+---
+
+## Exercícios Resolvidos
+
+### 1. Cálculo de Vazão
+
+Um arquivo de 1 GB é transferido em 40 segundos. Qual a vazão?
+
+1 GB = $1 \times 10^9$ bytes
+
+$$
+D = 1 \times 10^9 \times 8
+$$
+
+$$
+D = 8 \times 10^9 \text{ bits}
+$$
+
+$$
+T = \frac{8 \times 10^9}{40}
+$$
+
+$$
+T = 2 \times 10^8
+$$
+
+$$
+T = 200 \text{ Mbps}
+$$
 
 ---
 
 ## Bibliografia
 
-- [UNIVESP. Infraestrutura para Sistemas de Software – Introdução às Redes de Computadores. Vídeo-aula. Acesso em 05 ago. 2025.](https://www.youtube.com/watch?v=Sea42wIzMOY&ab_channel=UNIVESP)  
-- KUROSE, J. F.; ROSS, K. W. _Computer Networking: A Top-Down Approach_. 7th ed. Pearson, 2017.  
-- WIKIVERSITY. Introdução às Redes de Computadores/Definições das Redes de Computadores. Disponível em: https://pt.wikiversity.org/wiki/Introdu%C3%A7%C3%A3o_%C3%A0s_Redes_de_Computadores/Defini%C3%A7%C3%B5es_das_Redes_de_Computadores. Acesso em 05 ago. 2025.  
-- RFC 768. User Datagram Protocol. IETF, 1980. Acesso em 05 ago. 2025.  
-- RFC 793. Transmission Control Protocol. IETF, 1981. Acesso em 05 ago. 2025.
+KUROSE, James F.; ROSS, Keith W. *Redes de Computadores e a Internet*. 6. ed. São Paulo: Pearson, 2013.
+
+TANENBAUM, Andrew S.; WETHERALL, David J. *Redes de Computadores*. 5. ed. São Paulo: Pearson, 2011.
+
+---
+
+## Materiais Complementares
+
+IETF – Internet Engineering Task Force. Disponível em: [https://www.ietf.org](https://www.ietf.org)
+
+RFC Editor. Disponível em: [https://www.rfc-editor.org](https://www.rfc-editor.org)
+
+---
+
+Se desejar, posso expandir este material para um nível ainda mais aprofundado, incluindo:
+
+* Cálculo de latência fim a fim
+* Controle de congestionamento TCP
+* NAT e IPv6
+* Subnetting com resolução detalhada
+* QoS em infraestrutura de software
+
+Basta indicar o nível desejado.
